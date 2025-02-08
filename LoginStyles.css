@@ -119,10 +119,12 @@ body{
     border: 2px solid gray;
     cursor: pointer;  
     vertical-align: middle; 
+    padding: 20px;
 }
 
 .remember label {
     font-size: 20px;
+    padding: 20px;
 }
 
 .remember a {
@@ -132,6 +134,7 @@ body{
     vertical-align: middle;
     margin-right: 10px;
     margin-bottom: 10px;
+    padding: 20px;
 }
 .form input[type="submit"]{
     padding: 15px;
