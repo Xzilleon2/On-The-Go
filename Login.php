@@ -8,16 +8,35 @@
 </head>
 <body>
     <header>
-        <label for="">LOGO</label>
-        <label for="">Help</label>
-        <label for="">Contact Us</label>
-        <label for="">About Us</label>
-        <label for="">Sign up</label>
-        <label for="">Icon</label>
+        <div class="banner">
+            <label><h1>LOGO</h1></label>
+            <label>Help</label>
+            <label>Contact Us</label>
+            <label>About Us</label>
+            <label>Sign up</label>
+            <label>Icon</label>
+        </div>
     </header>
-    <div>
+        <div class="form">
+            <H1>WELCOME BACK!</H1>
+            <label for="">Don't have an account? <a href="">Sign up</a></label>
+            <form action="" class="container">
+                <label for="username">Username</label>
+                <input type="text" name="username">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+                <div class="remember">
+                    <label id="remember me">
+                        <input type="checkbox" name="remember" id="remember"> Remember me
+                    </label>
+                    <a href="">Forgot Password?</a>
+                </div>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div class="image">
 
-    </div>
+        </div>
     
 </body>
 </html>
