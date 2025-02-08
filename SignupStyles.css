@@ -16,8 +16,11 @@
 /*Header Design*/
 header{
     height: 80px;
+    position: sticky;
+    top: 0;
     width: 100%;
-    background-color: #FCFCF7;
+    background-color: #FCFCF7; /* Ensures visibility */
+    z-index: 1000; /* Keeps it above other elements */
     align-items: center;
     justify-content: center;
 }
@@ -39,11 +42,13 @@ header{
 .banner h1{
     color: #8699DA;
     font-family: 'Overpass', sans-serif;
-    margin-right: 655px;
+    margin-right: 570px;
+    width: 180px;
 }
 .banner a{
     text-decoration: none;
     color: var(--text-color);
+    width: 100px;
 }
 /*Body Design*/
 body{
@@ -54,7 +59,7 @@ body{
 }
 .wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 0;
 }
 .form{
@@ -72,9 +77,11 @@ body{
     font-size: 40px;
     font-family: 'Overpass',sans-serif;
     color: #8699DA;
+    text-align: center;
 }
 .form label{
     font-size: 20px;
+    text-align: center;
 }
 .form a{
     text-decoration: none;
@@ -91,6 +98,7 @@ body{
     font-size: 20px;
     justify-content: left;
     margin-bottom: 10px;
+    text-align: left;
 }
 .container input[type="text"], input[type="password"],input[type="email"],input[type="submit"]{
     padding: 15px;
@@ -107,7 +115,6 @@ body{
     justify-content: space-evenly;
     width: 100%;
 }
-
 .classification label {
     font-size: 20px;
     vertical-align: center;

@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="banner">
-            <label><h1>LOGO</h1></label>
+            <label><h1>ON THE GO</h1></label>
             <label><a href="">Help</a></label>
             <label><a href="">Contact Us</a></label>
             <label><a href="">About Us</a></label>

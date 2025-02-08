@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="banner">
-            <label><h1>LOGO</h1></label>
+            <label><h1>ON THE GO</h1></label>
             <label><a href="">Help</a></label>
             <label><a href="">Contact Us</a></label>
             <label><a href="">About Us</a></label>
@@ -33,7 +33,7 @@
                     <label for="classification">Classification</label>
                     <div class="classification">
                         <label for="Visitor">
-                            <input type="radio" id="Visitor" name="classification" value="Visitor">Customer/Visitor
+                            <input type="radio" id="Visitor" name="classification" value="Visitor" checked>Customer/Visitor
                         </label>
                         <label for="Owner">
                             <input type="radio" id="Owner" name="classification" value="Owner">Business Owner
@@ -41,9 +41,6 @@
                     </div>
                     <input type="submit" value="Login">
                 </form>
-            </div>
-            <div class="image">
-                <label for="">IMAGE</label>
             </div>
         </div>   
 </body>

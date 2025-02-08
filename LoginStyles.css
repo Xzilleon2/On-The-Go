@@ -39,11 +39,13 @@ header{
 .banner h1{
     color: #8699DA;
     font-family: 'Overpass', sans-serif;
-    margin-right: 670px;
+    margin-right: 570px;
+    width: 180px;
 }
 .banner a{
     text-decoration: none;
     color: var(--text-color);
+    width: 100px;
 }
 /*Body Design*/
 body{
@@ -152,7 +154,6 @@ body{
     height: 500px;
     margin-top: 40px;
     margin-right: 55px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
