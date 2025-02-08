@@ -1,0 +1,159 @@
+/*Login Page Style*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+:root{
+    --font-size: 15px;
+    --font: 'Nunito',sans-serif;
+    --text-color: black;
+    --background-color: lightblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+/*Header Design*/
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #FCFCF7;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    gap: 40px;
+    height: 80px;
+}
+.banner label{
+    color: var(--text-color);
+    font-family: var(--font);
+    font-size: var(--font-size);
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.banner h1{
+    color: #8699DA;
+    font-family: 'Overpass', sans-serif;
+    margin-right: 670px;
+}
+.banner a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+/*Body Design*/
+body{
+    color: var(--text-color);
+    font-family: var(--font);
+    width: 100%;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+.form{
+    width: 600px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.form h1{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Overpass',sans-serif;
+    color: #8699DA;
+}
+.form label{
+    font-size: 20px;
+}
+.form a{
+    text-decoration: none;
+    margin-left: 5px;
+    color:#8699DA;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container label{
+    font-size: 20px;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+.container input[type="text"], input[type="password"],input[type="submit"]{
+    padding: 15px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    border: 1px solid #8699DA;
+    font-size: 20px;
+}
+.remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.remember input[type="checkbox"] {
+    width: 1.5em;         
+    height: 1.5em;        
+    margin-right: 2px;  
+    margin-bottom: 5px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border: 2px solid gray;
+    cursor: pointer;  
+    vertical-align: middle; 
+}
+
+.remember label {
+    font-size: 20px;
+}
+
+.remember a {
+    text-decoration: none;
+    color: #8699DA;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.form input[type="submit"]{
+    padding: 15px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    border: 1px solid #8699DA;
+    background-color: #8699DA;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*Design for Image Div*/
+.image{
+    width: 600px;
+    height: 500px;
+    margin-top: 40px;
+    margin-right: 55px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
