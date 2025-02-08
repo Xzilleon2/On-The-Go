@@ -19,18 +19,25 @@
     </header>
         <div class="wrapper">
             <div class="form">
-                <H1>WELCOME BACK!</H1>
-                <label for="">Don't have an account? <a href="">Sign up</a></label>
+                <H1>SIGN UP</H1>
+                <label for="">Already got an account? <a href="Login.php">Login</a></label>
                 <form action="" class="container" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
                     <label for="username">Username</label>
                     <input type="text" name="username" required>
                     <label for="password">Password</label>
                     <input type="password" name="password" required>
-                    <div class="remember">
-                        <label id="remember me">
-                            <input type="checkbox" name="remember" id="remember"> Remember me
+                    <label for="classification">Classification</label>
+                    <div class="classification">
+                        <label for="Visitor">
+                            <input type="radio" id="Visitor" name="classification" value="Visitor">Visitor
                         </label>
-                        <a href="">Forgot Password?</a>
+                        <label for="Owner">
+                            <input type="radio" id="Owner" name="classification" value="Owner">Owner
+                        </label>
                     </div>
                     <input type="submit" value="Login">
                 </form>

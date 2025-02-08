@@ -20,7 +20,7 @@
         <div class="wrapper">
             <div class="form">
                 <H1>WELCOME BACK!</H1>
-                <label for="">Don't have an account? <a href="">Sign up</a></label>
+                <label for="">Don't have an account? <a href="Signup.php">Sign up</a></label>
                 <form action="" class="container" method="POST">
                     <label for="username">Username</label>
                     <input type="text" name="username" required>
