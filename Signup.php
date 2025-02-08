@@ -33,10 +33,10 @@
                     <label for="classification">Classification</label>
                     <div class="classification">
                         <label for="Visitor">
-                            <input type="radio" id="Visitor" name="classification" value="Visitor">Visitor
+                            <input type="radio" id="Visitor" name="classification" value="Visitor">Customer/Visitor
                         </label>
                         <label for="Owner">
-                            <input type="radio" id="Owner" name="classification" value="Owner">Owner
+                            <input type="radio" id="Owner" name="classification" value="Owner">Business Owner
                         </label>
                     </div>
                     <input type="submit" value="Login">
